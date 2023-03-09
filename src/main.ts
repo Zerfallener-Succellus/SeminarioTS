@@ -127,8 +127,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </body>
 `
 
-const jogador1 = new Personagem("João", 5, 50);
-const monstro1 = new Monstro("Goblin", 3, 30);
 
-batalha(jogador1, monstro1); // "Goblin venceu a batalha!"
 
